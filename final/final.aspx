@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>亞東新生資料登入</h1><br />
+            <h1>個人資料表單</h1><br />
             姓名<br />
             <asp:TextBox ID="TextBox1" runat="server" Width="100px"></asp:TextBox><br />
             學號<br />
