@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="final.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="page2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="page2.aspx.cs">
+      <DependentUpon>page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page2.aspx.designer.cs">
+      <DependentUpon>page2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
