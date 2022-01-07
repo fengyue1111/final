@@ -21,7 +21,8 @@
             <asp:TextBox ID="TextBox4" runat="server" Width="100px"></asp:TextBox><br />
             電子郵件<br />
             <asp:TextBox ID="TextBox5" runat="server" Width="200px"></asp:TextBox><br />
-            <asp:Button ID="Button1" runat="server" Text="送出" PostBackUrl="~/page1.aspx" />
+            <asp:Button ID="Button1" runat="server" Text="送出"  OnClick="Button1_Click" PostBackUrl="~/page1.aspx"/><br />
+            <asp:Label ID="Tip" runat="server" Text=""></asp:Label>
 
         </div>
     </form>
