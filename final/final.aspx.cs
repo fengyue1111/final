@@ -18,14 +18,8 @@ namespace final
         
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (TextBox1.Text.Length != 0 && TextBox2.Text.Length != 0 && TextBox3.Text.Length != 0 && TextBox4.Text.Length != 0 && TextBox5.Text.Length != 0)
-            {
-                Server.Transfer("final.aspx");
-            }
-            else
-            {
-                Tip.Text = "不能有空格";
-            }
+
+            
         }
     }
 }
