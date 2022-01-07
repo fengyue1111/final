@@ -11,7 +11,7 @@ namespace final
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Ib_Text.Text= "123";
+            
         }
     }
 }
