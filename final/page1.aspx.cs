@@ -11,7 +11,18 @@ namespace final
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            string temp = "";
+
+            string number = Request.Form.Get("TextBox1");
+            temp += Request.Form.Get("TextBox1") + "<br/>";
+            temp += Request.Form.Get("TextBox2") + "<br/>";
+            temp += Request.Form.Get("TextBox3") + "<br/>";
+            temp += Request.Form.Get("TextBox4") + "<br/>";
+            temp += Request.Form.Get("TextBox5") + "<br/>";
+
+
+
+            Ib_Text.Text = temp;
         }
     }
 }
