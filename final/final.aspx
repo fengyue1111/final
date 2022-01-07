@@ -22,7 +22,7 @@
             電子郵件<br />
             <asp:TextBox ID="TextBox5" runat="server" Width="200px"></asp:TextBox><br />
             <asp:Button ID="Button1" runat="server" Text="送出"  OnClick="Button1_Click" PostBackUrl="~/page1.aspx"/>
-            <asp:RequiredFieldValidator ID="rs" runat="server" ErrorMessage="不能空白" ControlToValidate="TextBox1" ForeColor="Maroon"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rs" runat="server" ErrorMessage="不能空白" ControlToValidate="TextBox4" ForeColor="Maroon"></asp:RequiredFieldValidator>
             <br />
             <asp:Label ID="Tip" runat="server" Text=""></asp:Label>
 
