@@ -11,7 +11,7 @@ namespace final
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Ib_Text.Text= "123";
+            Ib_Text.Text= "已上傳成功!";
         }
     }
 }
