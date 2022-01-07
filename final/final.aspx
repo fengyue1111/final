@@ -18,7 +18,7 @@
             通訊地址<br />
             <asp:TextBox ID="TextBox3" runat="server" Width="250px"></asp:TextBox><br />
             手機(電話)<br />
-            <asp:TextBox ID="TextBox4" runat="server" Width="100px"></asp:TextBox><br />
+            <asp:TextBox ID="TextBox4" runat="server" Width="100px"></asp:TextBox><br /> 
             電子郵件<br />
             <asp:TextBox ID="TextBox5" runat="server" Width="200px"></asp:TextBox><br />
             <asp:Button ID="Button1" runat="server" Text="送出"  OnClick="Button1_Click" PostBackUrl="~/page1.aspx"/>
