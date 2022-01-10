@@ -21,5 +21,20 @@ namespace final
 
             
         }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CheckBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
