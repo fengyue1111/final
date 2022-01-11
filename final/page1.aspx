@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>       
             <asp:Label runat="server" Text="" ID="Ib_Text"></asp:Label><br / >
-            <asp:Button ID="lb_back" runat="server" Text="回上一頁" PostBackUrl="~/final.aspx" />
+            <asp:Button ID="lb_back" runat="server" Text="回上一頁" PostBackUrl="~/owo.aspx" />
         </div>
     </form>
 </body>

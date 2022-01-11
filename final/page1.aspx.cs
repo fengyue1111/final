@@ -16,11 +16,12 @@ namespace final
             string number = Request.Form.Get("TextBox1");
             temp += Request.Form.Get("TextBox1") + "<br/>";
             temp += Request.Form.Get("TextBox2") + "<br/>";
+            temp += Request.Form.Get("TextBox6") + "<br/>";
             temp += Request.Form.Get("TextBox3") + "<br/>";
+            temp += Request.Form.Get("TextBox8") + "<br/>";
             temp += Request.Form.Get("TextBox4") + "<br/>";
             temp += Request.Form.Get("TextBox5") + "<br/>";
-
-
+            temp += Request.Form.Get("TextBox7") + "<br/>";
 
             Ib_Text.Text = temp;
         }
