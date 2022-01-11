@@ -32,7 +32,7 @@
             <asp:TextBox ID="TextBox5" runat="server" Width="200px"></asp:TextBox>
             <br />
             通訊地址<br />
-            <asp:TextBox ID="TextBox7" runat="server" Width="266px"></asp:TextBox>
+            <asp:TextBox ID="TextBox7" runat="server" Width="266px"></asp:TextBox> 
             <br />
             <asp:CheckBox ID="CheckBox1" runat="server" Font-Names="標楷體" Text="在學中" /><asp:CheckBox ID="CheckBox2" runat="server" Text="已畢業"/>
             <br />
