@@ -70,17 +70,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="final1.aspx" />
-    <Content Include="final1.csproj.user" />
     <Content Include="Global.asax" />
     <Content Include="page1.aspx" />
     <Content Include="Page2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="final1.aspx.designer.cs">
-      <DependentUpon>final1.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,7 +96,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="final1.csproj" />
     <None Include="packages.config" />
     <Content Include="text.md" />
     <None Include="Web.Debug.config">
