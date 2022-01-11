@@ -70,20 +70,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="final.aspx" />
     <Content Include="Global.asax" />
     <Content Include="page1.aspx" />
     <Content Include="Page2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="final.aspx.cs">
-      <DependentUpon>final.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="final.aspx.designer.cs">
-      <DependentUpon>final.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
